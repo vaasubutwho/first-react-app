@@ -1,7 +1,36 @@
 .App {
-  text-align: center;
-}
 
+}
+body{
+  background-color:#282d35;
+  background-image:url("./img.png");
+  background-position-x: 120%;
+  background-position-y: 200px;
+  background-repeat: no-repeat;
+
+
+}
+.main--wrapper{
+  padding-left:20px;
+  color:white;
+
+
+}
+.main--heading{
+  font-size:70px;
+  font-weight:bolder;
+  letter-spacing: 0;
+}
+.main--ul>li{
+  font-size:20px;
+  text-decoration-color: #61dafb;
+  padding-block:10px;
+
+}
+::marker{
+  color:#61dafb;
+  font-size:1.5em;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +64,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+.navlist > li{
+  display: inline;
+  text-decoration: none;
+  padding:10px;
+  color:white;
+  margin-right:60px;
+  font-weight:bold;
+
+}
+.img-logo{
+  align-content: center;
+  width:60px;
+  padding:20px
+}
+nav{
+  display:flex;
+  background-color:#21222a;
+  align-items: center;
+  color:white;
+}
+nav >p{
+  margin-right:auto;
+  font-size:32px;
+  font-weight:bolder;
+  color:#61dafb;
 }
